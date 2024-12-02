@@ -1,1 +1,25 @@
 
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Media Query for Tablet */
+@media screen and (min-width: 769px) {
+    .mobile {
+        display: none;
+    }
+
+    .tablet-desktop {
+        display: block;
+    }
+}
+
+/* Media Query for Desktop */
+@media screen and (min-width: 1280px) {
+
+}
