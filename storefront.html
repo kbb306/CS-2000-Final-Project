@@ -94,12 +94,38 @@
           <div id="YearSearch">
             <!--Bottom Left content block, form to search by year phone is made-->
             <form id="Year">
-                <label>Year/Month produced<input type="month"></label>
+                <label for="age">Year/Month produced</label>
+                <input type="month" name="age">
             </form>
           </div>
 
           <div id="SpecSearch">
             <!--Bottom right content block, form to search by tech specs: Memory, CPU, has keyboard, etc-->
+            <form id="specs">
+              <label for="memory">Minimum Memory</label>
+              <select name="memory" id="menory">
+                  <option value="4">4GB</option>
+                  <option value="6">6GB</option>
+                  <option value="8">8GB</option>
+                  <option value="12">12GB</option>
+                  <option value="24">24GB</option>
+              </select>
+              <label for="storage">Minimum Storage</label>
+              <select name="storage" id="storage">
+                <option value="32">32GB</option>
+                <option value="64">64GB</option>
+                <option value="128">128GB</option>
+              </select>
+              <legend>SD Card?</legend>
+              <div>
+                <input type="radio" id="yes" name="SD">
+                <label for="yes">Yes</label>
+              </div>
+              <div>
+                <input type="radio" id="no" name="SD">
+                <label for="no">No</label>
+              </div>
+            </form>
           </div>
           
       </body>  
