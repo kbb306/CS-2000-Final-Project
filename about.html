@@ -52,24 +52,37 @@
         </ul> 
     </nav>
 
-    <main>
+    <main class="about-grid">
         <div id="history">
-
+            <h3>About Us</h3>
+            <p>ReCell was founded in 2006 when our founders were disassatisfied by the state of the second-hand cell phone market.</p>
+            <p>Though at first we only offered services for buying second-hand phones at our physical locations, in 2008 we expanded to allow our customers to become sellers and started providing shipping services.</p>
+            <img src="images/depositphotos_51995311-stock-photo-cellphone.jpg" alt="A picture of a pile of various cell phones">
+            <p>In 2011, we launched recell.com in order to provide our services more widely and expand our business. Since its inception, ReCell has been the market leader and praised for our reliable shipping, customer service, and generous policies.</p>
         </div>
 
-        <p>ReCell Headquarters</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1877.687017018389!2d-113.06986196931146!3d37.67551416340588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b561a6cd8648ab%3A0x59d2e85cede631cd!2sElectronic%20Learning%20Center!5e0!3m2!1sen!2sus!4v1733161869485!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
+        <div id="map">
+            <div id="contact-info">
+                <h3>Contact Information</h3>
+                <p>Email: <a href="mailto:support@recell.com">support@recell.com</a></p>
+                <p class="mobile">Phone: <a href="tel:8014728333">(801) 472-8333</a></p>
+                <p class="tablet-desktop">Phone: (801) 472-8333</p>
+            </div>
+
+            <h4>ReCell Headquarters</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1877.687017018389!2d-113.06986196931146!3d37.67551416340588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b561a6cd8648ab%3A0x59d2e85cede631cd!2sElectronic%20Learning%20Center!5e0!3m2!1sen!2sus!4v1733161869485!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        </div>
+
         <!-- Email Contact Form -->
         <div id="contact">
-            <p>For General Inqueries</p>
+            <h3>For General Inqueries</h3>
             <form>
-                <label for="email">Email:</label>
+                <label for="email">Email:</label><br>
                 <input type="text" id="email" name="email" placeholder="your.email@domain.com">
                 <br>
                 
                 <label for="message">Message:</label>
-                <textarea name="message" placeholder="Your message here"></textarea>
+                <textarea name="message" id="message" placeholder="Your message here"></textarea>
                 <br>
                 
                 <button type="submit">Submit</button>
@@ -79,6 +92,7 @@
 
     <footer>
         <p>Created by <a href="spencer.html">Spencer Burton</a></p>
+        <p>&copy; 2024 ReCell. All rights reserved.</p>
     </footer>
 </body>
 <script src="scripts/script.js"></script>
