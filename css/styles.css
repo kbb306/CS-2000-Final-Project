@@ -27,15 +27,18 @@ footer {
     background-color: white;
 }
 
-.footer {
+/* Home properties */
+.card {
 
 }
 
+/* Storefront properties*/
 .grid-storefront {
     display: grid;
     grid-template-columns: auto;
 }
 
+/* Sellers properties */
 form {
     max-width: 100%;
 }
