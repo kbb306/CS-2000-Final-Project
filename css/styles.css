@@ -29,6 +29,10 @@ footer {
     .tablet-desktop {
         display: block;
     }
+
+    .grid-storefront {
+        grid-template-columns: auto auto auto;
+    }
 }
 
 /* Media Query for Desktop */
