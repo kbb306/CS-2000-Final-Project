@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Luke's Portfolio</title>
+</head>
+<body>
+    <nav class="mobile">
+        <a onclick="toggleHamburgerNav()" class="btn btn-info btn-sm">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </a>
+        <ul class="nav flex-column" id="mobileNav" style="display: none">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="storefront.html">Shopping</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="support.html">Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sellers.html">Sellers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="tablet-desktop">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="storefront.html">Shopping</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="support.html">Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sellers.html">Sellers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="introduction">
+            <h3>About Me</h3>
+            <div id="introPhoto">
+                <img src="images/luke1.jpg" alt="An image of Luke sitting" style="width: 50%; height: 50%">
+            </div>
+            <div class="mainText" id="introParagraph">
+                <p>Hello there. I'm Luke, a passionate programmer and game developer with over 2 years of experience
+                    of crafting unique and fun experiences for players. I first became interested in game development at
+                    a young age due to how easy it was to modify and experiment with games on pc. Eventually this became
+                    a more general exposure to programming and problem-solving. I am especially proficient in python,
+                    java, c#, and some lua. However, I am also eager to learn new languages and technologies. Outside
+                    the field of tech I am also interested in mathematics and physics, which often help me down the line
+                    in turn.</p>
+            </div>
+            <h3>My Contact Information</h3>
+            <div id="contactInfoList">
+                <ul class="list-group contact-list">
+                    <li class="list-group-item">
+                        <span class="icon">&#9742;</span> <a href="tel:90960966464">(909) 609-6646</a> </li>
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:lpickett2004@gmail.com">lpickett2004@gmail.com</a> </li>
+                    <li class="list-group-item">
+                        <span class="icon">&#128204;</span> 351 W University Blvd, 9184 Cedar City, Utah, USA </li>
+                    <li class="list-group-item"> <span class="glyphicon glyphicon-link"></span> <a href="https://github.com/luke-pickett/" target="_blank">GitHub Profile</a> </li>
+                    <li class="list-group-item"> <span class="glyphicon glyphicon-link"></span> <a href="https://www.linkedin.com/in/luke-pickett/" target="_blank">LinkedIn Profile</a> </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+        <div class="footer">
+            <p>&copy; 2024 ReCell. All rights reserved.</p>
+            <p>
+                <a href="luke.html" class="text-white">Luke's Portfolio</a> | <a href="about.html" class="text-white">About Us</a>
+            </p>
+        </div>
+
+    </footer>
+</body>
+<script src="scripts/script.js"></script>
+</html>

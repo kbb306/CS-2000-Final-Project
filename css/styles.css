@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    padding-bottom: 6em;
 }
 
 .mobile {
@@ -18,6 +19,7 @@ footer {
     margin-top: 5em;
     border-top: 2px solid #000;
     padding-top: 1em;
+    background-color: white;
 }
 
 .footer {
@@ -30,6 +32,32 @@ footer {
 
 form {
     max-width: 100%;
+}
+
+#introduction {
+    justify-items: center;
+    justify-content: center;
+}
+
+#introduction h3 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#introduction img {
+    text-align: center;
+    justify-content: center;
+}
+
+#introPhoto {
+    padding-bottom: 1em;
+}
+
+.mainText {
+    padding-top: 1em;
+    border-top: 2px solid #000;
+    font-size: 24px;
+    border-bottom: 2px solid #000;
 }
 
 /* Media Query for Tablet */
