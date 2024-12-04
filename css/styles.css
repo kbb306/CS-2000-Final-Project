@@ -78,6 +78,8 @@ form {
 /* Media Query for Desktop */
 @media screen and (min-width: 1280px) {
 
+}
+
 body {
     font-family: Arial, sans-serif;
     padding-bottom: 6em;
@@ -249,7 +251,3 @@ td:nth-child(odd) {
     }
 }
 
-/* Media Query for Desktop */
-@media screen and (min-width: 1280px) {
-
-}
