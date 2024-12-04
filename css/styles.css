@@ -31,6 +31,7 @@ footer {
 }
 
 .grid-storefront {
+    display: grid;
     grid-template-columns: auto;
 }
 
