@@ -135,14 +135,11 @@ h3 {
     height: 75%;
 }
 
-#supportImage {
-    background-color: linear-gradient(to right, rgba(72,107,151,0), rgba(72,107,151,1));
-}
-
 /* Styling rules for tables */
 table{
     margin-left: 1%;
 }
+
 th {
     border: 1px solid #000;
     background-color: #add8e6;
