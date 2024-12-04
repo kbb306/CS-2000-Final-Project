@@ -27,12 +27,22 @@ footer {
     background-color: white;
 }
 
-.footer {
-
+/* Home properties */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
 }
 
+/* Storefront properties*/
 .grid-storefront {
+    display: grid;
     grid-template-columns: auto;
+    text-align: center;
 }
 
 /* About Page Styles */
@@ -85,10 +95,12 @@ footer {
 }
 /* About Page Styles End */
 
+/* Sellers properties */
 form {
     max-width: 100%;
 }
 
+/* CSS properties for Luke's portfolio */
 #introduction {
     justify-items: center;
     justify-content: center;
@@ -172,13 +184,13 @@ h3 {
 .pageImage {
     width: 75%;
     height: 75%;
-    margin: 2%;
 }
 
 /* Styling rules for tables */
 table{
     margin-left: 1%;
 }
+
 th {
     border: 1px solid #000;
     background-color: #add8e6;
