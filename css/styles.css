@@ -11,13 +11,25 @@ body {
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     margin-top: 5em;
     border-top: 2px solid #000;
     padding-top: 1em;
 }
 
+.footer {
+
+}
+
 .grid-storefront {
     grid-template-columns: auto;
+}
+
+form {
+    max-width: 100%;
 }
 
 /* Media Query for Tablet */
