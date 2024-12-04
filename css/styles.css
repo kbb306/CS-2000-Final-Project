@@ -3,6 +3,86 @@ body {
     padding-bottom: 6em;
 }
 
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5em;
+    border-top: 2px solid #000;
+    padding-top: 1em;
+    background-color: white;
+}
+
+.footer {
+
+}
+
+.grid-storefront {
+    grid-template-columns: auto;
+}
+
+form {
+    max-width: 100%;
+}
+
+#introduction {
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#introduction h3 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#introduction p {
+    text-align: left;
+}
+
+#introPhoto {
+    padding-bottom: 1em;
+}
+
+.mainText {
+    padding-top: 1em;
+    border-top: 2px solid #000;
+    font-size: 24px;
+    border-bottom: 2px solid #000;
+}
+
+/* Media Query for Tablet */
+@media screen and (min-width: 769px) {
+    .mobile {
+        display: none;
+    }
+
+    .tablet-desktop {
+        display: block;
+    }
+
+    .grid-storefront {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+/* Media Query for Desktop */
+@media screen and (min-width: 1280px) {
+
+body {
+    font-family: Arial, sans-serif;
+    padding-bottom: 6em;
+}
+
 p {
     margin-left: 1%;
 }
