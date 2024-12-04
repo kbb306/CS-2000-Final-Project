@@ -42,6 +42,7 @@ footer {
 .grid-storefront {
     display: grid;
     grid-template-columns: auto;
+    text-align: center;
 }
 
 /* Sellers properties */
