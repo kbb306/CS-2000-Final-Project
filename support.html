@@ -3,10 +3,18 @@
     <head>
         <title>Support</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
+        <!-- Mobile Nav -->
         <nav class="mobile">
             <a onclick="toggleHamburgerNav()" class="btn btn-info btn-sm">
                 <span class="glyphicon glyphicon-menu-hamburger"></span>
@@ -29,6 +37,8 @@
                 </li>
             </ul>
         </nav>
+
+        <!-- Tablet or Desktop Nav -->
         <nav class="tablet-desktop">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
@@ -51,11 +61,106 @@
 
         <main>
 
-            <p>This page was made by: <a href="ashton.html">Ashton Olsen</a></p>
+            <img src="images/pexels-tima-miroshnichenko-6755075.jpg" alt="Person taking phone apart for repair." class="pageImage">
+
+            <h3>Frequently Asked Questions:</h3>
+
+            <!-- Collapsibles are listed here for the frequently asked questions-->
+            <button type="button" class="collapsible">Do phones bought have a warranty?</button>
+            <div class="content">
+                <p>
+                    Yes we guarantee quality with all of the phones that we sell, so if the phone is not satisfactory up to a year 
+                    after purchase, it can be returned. Simply <a href="about.html">contact us</a> for more information on the process.
+                </p>
+            </div>
+
+            <button type="button" class="collapsible">I have an old phone, can I sell it here?</button>
+            <div class="content">
+                <p>
+                    Sellers can trade in their own unused or broken phones to us. We then refurbish these phones to later resell them 
+                    to people like you! Do you have a phone you would like to sell? Please complete a form in our 
+                    <a href="sellers.html">seller's page</a>!
+                </p>
+            </div>
+
+            <button type="button" class="collapsible">How much does shipping cost and how long will it take?</button>
+            <div class="content">
+                <p>
+                    It depends where you live, if you are anywhere within the United States we cover the shipping charges. Outside of 
+                    the United States shipping will generally cost anywhere from $15-$45. Phones shipped within the United States take 
+                    about 4-5 business days to ship, while outside of the country it can take up to two weeks.
+                </p>
+            </div>
+
+            <button type="button" class="collapsible">What are the accepted payment options?</button>
+            <div class="content">
+                <p>
+                    You can pay with your choice of PayPal, Debit or Credit card, Apple Pay, Amazon Pay, or electronic check.
+                </p>
+            </div>
+
+            <!-- Financing will show a list for mobile, and a table for desktop -->
+            <h3>Pricing Plans</h3>
+
+            <p class="raleway-paragraph">You may pay in full or subscribe to one of our pricing plans if you would like.</p>
+
+            <ul class="mobile">
+                <li>
+                    <p>$100-$300:</p>
+                    <p>$25-$75 for 4 months</p>
+                    <p>$8.33-$25 for 12 months</p>
+                </li>
+                <li>
+                    <p>$300-$600:</p>
+                    <p>$75-$150 for 4 months</p>
+                    <p>$25-$50 for 12 months</p>
+                </li>
+                <li>
+                    <p>$600-$1000:</p>
+                    <p>$150-$250 for 4 months</p>
+                    <p>$50-$83.33 for 12 months</p>
+                </li>
+            </ul>
+
+            <table class="tablet-desktop">
+                <tr>
+                    <th>$100-$300</th>
+                    <th>$300-$600</th>
+                    <th>$600-$1000</th>
+                </tr>
+                <tr>
+                    <td>$25-$75 over 4 months</td>
+                    <td>$75-$150 over 4 months</td>
+                    <td>$150-$250 over 4 months</td>
+                </tr>
+                <tr>
+                    <td>$8.33-$25 over 12 months</td>
+                    <td>$25-$50 over 12 months</td>
+                    <td>$50-$83.33 over 12 months</td>
+                </tr>
+            </table> 
+
+            <h3>Do you need any other help?</h3>
+
+            <div class="mainText">
+                <p class="raleway-paragraph">
+                    If the question you have was not answered above or you have further questions on the matter don't hesitate to 
+                    <a href="about.html">contact us</a> and we will make sure that your question gets answered. We believe in providing 
+                    quality products, which means your satisfaction is a priority. You can rest assured that we will work with you to 
+                    provide the easiest phone shopping experience you can get!
+                </p>
+            </div>
+
         </main>
 
-        <footer>
-
+        <footer class="bg-dark text-white mt-5 p-4 text-center">
+            <div class="footer">
+                <p>&copy; 2024 ReCell. All rights reserved.</p>
+                <p>
+                    <a href="ashton.html" class="text-white">Ashton's Portfolio</a> | <a href="support.html" class="text-white">Support</a>
+                </p>
+            </div>
+    
         </footer>
         <script src="scripts/script.js"></script>
         <script src="scripts/sellers.js"></script>
