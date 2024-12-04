@@ -37,6 +37,7 @@ form {
 #introduction {
     justify-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #introduction h3 {
@@ -44,9 +45,8 @@ form {
     font-size: 2em;
 }
 
-#introduction img {
-    text-align: center;
-    justify-content: center;
+#introduction p {
+    text-align: left;
 }
 
 #introPhoto {
