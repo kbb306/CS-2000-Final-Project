@@ -27,15 +27,24 @@ footer {
     background-color: white;
 }
 
-.footer {
-
+/* Home properties */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
 }
 
+/* Storefront properties*/
 .grid-storefront {
     display: grid;
     grid-template-columns: auto;
 }
 
+/* Sellers properties */
 form {
     max-width: 100%;
 }
@@ -126,14 +135,11 @@ h3 {
     height: 75%;
 }
 
-#supportImage {
-    background-color: linear-gradient(to right, rgba(72,107,151,0), rgba(72,107,151,1));
-}
-
 /* Styling rules for tables */
 table{
     margin-left: 1%;
 }
+
 th {
     border: 1px solid #000;
     background-color: #add8e6;
