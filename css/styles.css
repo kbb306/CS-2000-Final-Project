@@ -27,19 +27,23 @@ footer {
     background-color: white;
 }
 
-.footer {
+/* Home properties */
+.card {
 
 }
 
+/* Storefront properties*/
 .grid-storefront {
     display: grid;
     grid-template-columns: auto;
 }
 
+/* Sellers properties */
 form {
     max-width: 100%;
 }
 
+/* CSS properties for Luke's portfolio */
 #introduction {
     justify-items: center;
     justify-content: center;
