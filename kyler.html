@@ -5,5 +5,50 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body></body>
+    <body>
+        <nav class="mobile">
+            <a onclick="toggleHamburgerNav()" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </a>
+            <ul class="nav flex-column" id="mobileNav" style="display: none">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="storefront.html">Shopping</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="support.html">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sellers.html">Sellers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="tablet-desktop">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="storefront.html">Shopping</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="support.html">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sellers.html">Sellers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Contact Us</a>
+                </li>
+            </ul> 
+        </nav>
+    
+        <script src="scripts/script.js"></script>
+        <script src="scripts/sellers.js"></script>
+    </body>
 </html>
