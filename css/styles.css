@@ -93,6 +93,18 @@ footer {
     height: 10em;
 }
 
+/* Styles for Spencer's portfolio */
+#spencer-image img {
+    width: 500px;
+    height: 500px;
+}
+
+.circle {
+    border-radius: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+
 /* Sellers properties */
 form {
     max-width: 100%;
