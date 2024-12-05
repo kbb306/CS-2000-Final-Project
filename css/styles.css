@@ -252,6 +252,12 @@ td:nth-child(odd) {
     border-bottom: 2px solid #000;
 }
 
+.credits ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+
 /* Media Query for Tablet */
 @media screen and (min-width: 769px) {
     .mobile {
