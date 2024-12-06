@@ -281,6 +281,7 @@ td:nth-child(odd) {
     text-align: center;
     padding-left: 33%, 33%;
     grid-column: 1 /span 3;
+    font-size: smaller;
 }
 
 .kyler img {
@@ -290,6 +291,7 @@ td:nth-child(odd) {
 .kyler ul {
     list-style-type: none;
     padding-top: 10%, 10%;
+    font-weight: bold;
 }
 /* Media Query for Tablet */
 @media screen and (min-width: 769px) {
@@ -310,6 +312,9 @@ td:nth-child(odd) {
         padding-left: 25%;
     }
 
+    .kyler {
+        font-size: medium;
+    }
     .about-grid {
         display: grid;
         grid-template-columns: 50% 50%;
