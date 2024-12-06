@@ -128,15 +128,39 @@ footer {
 }
 
 /* Styles for Spencer's portfolio */
+#spencer-main {
+    display: block;
+    justify-items: center;
+}
+
+#spencer-main div {
+    margin: 2em;
+}
+
+#spencer-image {
+    border: 3px solid black;
+}
+
 #spencer-image img {
-    width: 500px;
-    height: 500px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .circle {
     border-radius: 100%;
     overflow: hidden;
     display: inline-block;
+}
+
+#spencer-introduction {
+    text-align: center;
+}
+
+#spencer-contact {
+    text-align: center;
+    background-color: #eef;
+    height: 100%;
+    padding-bottom: 2em;
 }
 
 /* Sellers properties */
@@ -337,6 +361,23 @@ td:nth-child(odd) {
     #contact textarea {
         width: 100%;
         height: 15em;
+    }
+
+    #spencer-main {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    #spencer-image {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    #spencer-introduction {
+        grid-row: 1;
+        grid-column: 1;
+        padding-top: 3em;
+        align-self: center;
     }
 }
 
