@@ -288,6 +288,10 @@ td:nth-child(odd) {
     max-width: 25%;
 }
 
+.kyler h1 {
+    padding: 15%;
+}
+
 .kyler ul {
     list-style-type: none;
     padding-top: 10%, 10%;
