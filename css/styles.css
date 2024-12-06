@@ -269,6 +269,7 @@ td:nth-child(odd) {
     list-style-type: none;
     margin: 0;
     text-align: right;
+    font-size: xx-small;
 }
 
 /* Media Query for Tablet */
