@@ -273,6 +273,15 @@ td:nth-child(odd) {
     padding-top: 10%;
 }
 
+.kyler {
+    text-align: center;
+    padding-left: 33%, 33%;
+}
+
+.kyler img {
+    size: 25%;
+}
+
 /* Media Query for Tablet */
 @media screen and (min-width: 769px) {
     .mobile {
