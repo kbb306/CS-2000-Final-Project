@@ -265,6 +265,8 @@ td:nth-child(odd) {
     font-size: xx-small;
 }
 
+/* Shrink the photo credits and move to bottom of page */
+
 .credits ul {
     list-style-type: none;
     margin: 0;
@@ -273,15 +275,22 @@ td:nth-child(odd) {
     padding-top: 10%;
 }
 
+/* Style rules for Kyler's portfolio */
+
 .kyler {
     text-align: center;
     padding-left: 33%, 33%;
+    grid-column: 1 /span 3;
 }
 
 .kyler img {
-    size: 25%;
+    max-width: 25%;
 }
 
+.kyler ul {
+    list-style-type: none;
+    padding-top: 10%, 10%;
+}
 /* Media Query for Tablet */
 @media screen and (min-width: 769px) {
     .mobile {
