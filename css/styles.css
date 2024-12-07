@@ -79,6 +79,29 @@ footer {
    
 }
 
+.carousel-indicators {
+    background-color: rgba(1,1,1,0.5);
+    border-radius: 1em;
+    border: white solid;
+}
+
+.carousel-item h5 {
+    background-color: rgba(1,1,1,0.4);
+    color: white;
+    font-size: 4em;
+    border-radius: 1em;
+    border: white solid;
+}
+
+.carousel-control-prev {
+    background-color: black;
+    border-radius: 1em;
+}
+.carousel-control-next {
+    background-color: black;
+    border-radius: 1em;
+}
+
 /* About Page Styles */
 .about-grid {
     display: block;
