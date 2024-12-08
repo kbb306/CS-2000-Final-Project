@@ -27,6 +27,17 @@ footer {
     background-color: white;
 }
 
+.kyler-footer {
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5em;
+    border-top: 2px solid #000;
+    padding-top: 1em;
+    background-color: white;
+}
+
 /* Home properties */
 .card {
     border: none;
