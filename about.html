@@ -52,6 +52,7 @@
         </ul> 
     </nav>
 
+    <!-- Grid layout of the history blurb, map, and contact form -->
     <main class="about-grid">
         <div id="history">
             <h3>About Us</h3>
@@ -62,6 +63,7 @@
             <p>Since its inception, ReCell has been the market leader and praised for our reliable shipping, customer service, and generous policies.</p>
         </div>
 
+        <!-- Embedded map and contact info with hyperlinks s-->
         <div id="map">
             <div id="contact-info">
                 <h3>Contact Information</h3>
@@ -84,6 +86,19 @@
                 
                 <label for="message">Message:</label>
                 <textarea name="message" id="message" placeholder="Your message here"class="form-control" required></textarea>
+                <br>
+
+                <label for="reason">Reason:</label><br>
+                <select name="reason" id="reason" class="form-control">
+                    <option value="Support">Support</option>
+                    <option value="Question">Question</option>
+                    <option value="bug">Bug Report</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+
+                <input type="checkbox" name="updates" id="updates" class="form-checkbox">
+                <label for="updates">I would like to recieve status updates through email</label>
                 <br>
                 
                 <button type="submit" class="btn btn-primary">Submit</button>
