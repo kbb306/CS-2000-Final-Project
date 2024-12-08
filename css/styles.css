@@ -33,9 +33,11 @@ footer {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    padding-top: 15px;
 }
-.card:hover {
-    transform: translateY(-10px);
+
+#productsTitle, #reviewTitle {
+    padding: 10px;
 }
 
 .grid-products {
@@ -346,6 +348,7 @@ td:nth-child(odd) {
     padding-top: 10%, 10%;
     font-weight: bold;
 }
+
 /* Media Query for Tablet */
 @media screen and (min-width: 769px) {
     .mobile {
@@ -368,6 +371,8 @@ td:nth-child(odd) {
     .kyler {
         font-size: medium;
     }
+
+    /* About Page styles */
     .about-grid {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -388,6 +393,7 @@ td:nth-child(odd) {
         height: 15em;
     }
 
+    /* Spencer's Portfolio styles */
     #spencer-main {
         display: grid;
         grid-template-columns: 40% 60%;
@@ -408,6 +414,13 @@ td:nth-child(odd) {
 
 /* Media Query for Desktop */
 @media screen and (min-width: 1280px) {
+    /* Home Page properties */
+    /* Only animate cards on desktop where a mouse cursor would be present */
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    /* About Page styles */
     .about-grid {
         grid-template-columns: 33% 33% 33%;
     }
