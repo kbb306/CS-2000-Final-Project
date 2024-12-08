@@ -27,17 +27,6 @@ footer {
     background-color: white;
 }
 
-.kyler-footer {
-    text-align: center;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    margin-top: 5em;
-    border-top: 2px solid #000;
-    padding-top: 1em;
-    background-color: white;
-}
-
 /* Home properties */
 .card {
     border: none;
@@ -229,11 +218,13 @@ form {
 
 /* Image for portfolio */
 .imageIntro {
-    width: 35%;
-    height: 35%;
+    width: 25%;
+    height: 25%;
     border-radius: 25px;
     border: 2px solid;
-    margin: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Raleway font from google with a weight of 300 */
@@ -279,6 +270,13 @@ form {
     list-style-type: none;
 }
 
+#portfolio {
+    width: 65%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
 /* Header styles */
 h3 {
     padding-top: 1em;
@@ -288,9 +286,10 @@ h3 {
 }
 
 /* Styling for images shown on a page */
-.pageImage {
-    width: 75%;
-    height: 75%;
+.supportVideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Styling rules for tables */
@@ -313,14 +312,6 @@ td {
 
 td:nth-child(odd) {
     background-color: #eee;
-}
-
-.mainText {
-    padding-top: 1em;
-    border-top: 2px solid #000;
-    font-size: 24px;
-    border-bottom: 2px solid #000;
-    font-size: xx-small;
 }
 
 /* Shrink the photo credits and move to bottom of page */

@@ -1,6 +1,5 @@
 // Variables
 var coll = document.getElementsByClassName("collapsible");
-var i;
 
 function toggleHamburgerNav() {
     let navMenu = document.getElementById("mobileNav")
@@ -13,7 +12,7 @@ function toggleHamburgerNav() {
 }
 
 // For collapsible content, hides the content or shows depending on if it was already clicked.
-for (i = 0; i < coll.length; i++) {
+for (var i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
